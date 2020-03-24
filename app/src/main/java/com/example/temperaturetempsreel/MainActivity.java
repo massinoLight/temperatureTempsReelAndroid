@@ -24,7 +24,6 @@ import org.json.JSONObject;
 
 public class MainActivity extends Activity {
 
-    private static final Random RANDOM = new Random();
     private static final String TAG = "MyActivity";
     private LineGraphSeries<DataPoint> series;
     private int lastX = 0;
