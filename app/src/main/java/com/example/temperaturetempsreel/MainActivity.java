@@ -64,7 +64,7 @@ public class MainActivity extends Activity {
 
             @Override
             public void run() {
-                // we add 100 new entries
+                // tant qu'il y a des données on les affiche sur le graphe
                 while (true) {
                     runOnUiThread(new Runnable() {
 
@@ -74,7 +74,7 @@ public class MainActivity extends Activity {
                         }
                     });
 
-                    // sleep to slow down the add of entries
+                    // attendre que les données soit affichées
                     try {
                         Thread.sleep(100);
                     } catch (InterruptedException e) {
